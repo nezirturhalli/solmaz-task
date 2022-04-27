@@ -1,0 +1,4 @@
+a==b, b==c, a!=c açıklayabilir misin?
+
+-> Bu soruda  equals hash codu yazılmamış sınıflar karşılaştırılmış. Yani equals methodu olmayan ama hascode methodu
+yazılmış sınıflar. Bu yüzden ikisi atama yapılmış ama eşitlik sağlanamamış.
